@@ -1,0 +1,5 @@
+Method                  ArrayList Runtime    LinkedList Runtime  Explanation
+add(T element)          O(1)                O(1) or O(n)        ArrayList has constant-time add due to direct indexing. LinkedList has constant-time add at the end but may be O(n) when adding at a specific index due to traversal.
+getMax()                O(n)                O(n)                Both implementations require traversal to find the maximum element, resulting in linear time complexity.
+removeDuplicates()      O(n^2)              O(n^2)              Both implementations require nested loops to compare and remove duplicates, resulting in quadratic time complexity.
+reverse()               O(n)                O(n)                Both implementations traverse the list once to reverse it, resulting in linear time complexity.
